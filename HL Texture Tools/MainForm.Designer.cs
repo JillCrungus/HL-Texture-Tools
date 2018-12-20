@@ -123,7 +123,7 @@ namespace HLTextureTools
             this.typeLbl = new System.Windows.Forms.ToolStripStatusLabel();
             this.progressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.timerAnimate = new System.Windows.Forms.Timer(this.components);
-            this.folderDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.folderDialog = new Ookii.Dialogs.VistaFolderBrowserDialog();
             this.saveFileDialogTxt = new System.Windows.Forms.SaveFileDialog();
             this.tlCache = new System.Windows.Forms.ImageList(this.components);
             this.lblRgb = new System.Windows.Forms.Label();
@@ -1162,7 +1162,7 @@ namespace HLTextureTools
         private System.Windows.Forms.ToolStripMenuItem copyMenuItem;
         private System.Windows.Forms.ToolStripMenuItem animateMenuItem;
         private System.Windows.Forms.ToolStripMenuItem extractAllItem;
-        private System.Windows.Forms.FolderBrowserDialog folderDialog;
+        private Ookii.Dialogs.VistaFolderBrowserDialog folderDialog;
         private System.Windows.Forms.ToolStripMenuItem asPNGToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asJPEGToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asBMPToolStripMenuItem;
